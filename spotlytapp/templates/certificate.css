@@ -1,0 +1,137 @@
+@font-face {
+    font-family: Selima;
+    src: url(assets/fonts/Selima-font.ttf) format("truetype");
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap');
+  
+  body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+.section
+{
+    padding: 10px 0 10px 0;
+}
+
+.card
+{
+    box-shadow: 0px 0px 4px -1px rgba(0,0,0,0.1);
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    margin: auto 0;
+    background-image: url('assets/img/certificate-bg.png');
+    background-size: auto;
+    background-position-y: -248px;
+    background-repeat: no-repeat;
+
+  
+  }
+
+  .logo
+  {
+      margin: auto;
+      width: 40%;
+      height: auto;
+      text-align: center;
+      position: relative;
+  }
+
+  .main-title
+  {
+      font-family: Selima;
+      font-size: 100px;
+      line-height: 0.8;
+    
+    }
+
+  .sub-title
+  {
+    font-family: 'Montserrat', sans-serif!important;
+    font-size: 18px;
+    font-weight: lighter;
+  }
+
+  .username
+  {
+      color: #FCD215;
+      font-weight: 700;
+      font-size: 70px;
+      text-transform: uppercase;
+  }
+
+  .co-founder-sign
+  {
+      height: 100px;
+      width: 100px;
+  }
+
+  .co-founder-name
+  {
+    color: #FCD215;
+    font-size: 13px;
+    font-weight: 700;
+  }
+
+  .co-founder-txt
+  {
+    color: #111111;
+    font-size: 12px;
+    font-weight: 700;
+    margin-right: 30px;
+  }
+
+  .instructor-txt
+  {
+    color: #111111;
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 30px;
+  }
+
+  .barcode
+  {
+      align-items: center;
+      margin: auto;
+      width: 100%;
+      height: auto;
+      padding: 50px;
+  }
+
+  @media only screen and (max-width: 1440px){
+
+    .barcode
+    {
+      padding: 10px;
+    }
+
+    .d-flex
+    {
+      display: flex!important;
+      flex-direction: row;
+    }
+
+    .main-title
+    {
+      font-size: 50px;
+    }
+
+    .username
+    {
+      font-size: 35px;
+    }
+
+
+    .co-founder-name
+    {
+      text-align: center!important;
+      margin: auto!important;
+      font-size: 12px;
+      
+    }
+  }
+
+ 

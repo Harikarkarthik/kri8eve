@@ -1,0 +1,42 @@
+from django.contrib import admin
+
+from .models import *
+
+# Register your models here.
+
+admin.site.register(Custom_User)
+admin.site.register(Product)
+admin.site.register(Product_Category)
+admin.site.register(Product_Sub_Category)
+admin.site.register(ShippingCharges)
+admin.site.register(CartItem)
+admin.site.register(ShoppingSession)
+admin.site.register(Wishlist)
+admin.site.register(ProductAttributes)
+admin.site.register(PromoCode)
+
+admin.site.register(User_Address)
+admin.site.register(FAQs)
+admin.site.register(Attributes)
+admin.site.register(AttributeOptions)
+admin.site.register(Reviews)
+admin.site.register(Deal_of_the_day)
+admin.site.register(Enquiry)
+admin.site.register(Testimonials)
+admin.site.register(UserRoleRef)
+admin.site.register(kri8evTeam)
+admin.site.register(OrderDetails)
+admin.site.register(OrderItems)
+admin.site.register(PaymentDetails)
+admin.site.register(User_Payment)
+admin.site.register(Brand)
+admin.site.register(Team_Code)
+admin.site.register(Custom_user_profile)
+admin.site.register(Master_Attributes)
+admin.site.register(Master_AttributeOptions)
+admin.site.register(Discount)
+admin.site.register(Slide_Image)
+admin.site.register(Buy_NowCartItem)
+admin.site.register(User_PromoDetails)
+admin.site.register(LeaderBoardOne)
+admin.site.register(Marketer_sales)
